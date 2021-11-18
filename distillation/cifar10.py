@@ -1025,7 +1025,7 @@ class Simulator:
             val_l[i], val_a[i] = ag.validation()
         return val_l, val_a
 
-    def run(self, run_file="debug/.running"):
+    def run(self, run_file="debug/running"):
         results = {}
         results["params"] = self.params
         log = Logger()

@@ -813,7 +813,7 @@ class Simulator:
                     "time" : clock_time
                 }
                 results["logs"] = log
-                PickleUtil.save_data(results, "debug/.running")
+                PickleUtil.save_data(results, "debug/running")
         except KeyboardInterrupt:
             log("stopped {:>3}".format(epoch))
 

@@ -10,7 +10,7 @@ def main():
     # mnist
     m_param = {
         "num_labels_ag": 2,
-        "num_epoch": 500,
+        "num_epoch": 1000,
         "topology": "onehop",
         "num_shared": 1000,
         "nn_model": "model_0",
@@ -25,7 +25,7 @@ def main():
     # fashion
     f_param = {
         "num_labels_ag": 2,
-        "num_epoch": 500,
+        "num_epoch": 1000,
         "nn_model": "model_0",
         "topology": "onehop",
         #"start_m": start_m,
@@ -39,7 +39,7 @@ def main():
 
     # cifar10
     c_param = {
-        "num_epoch": 500,
+        "num_epoch": 2000,
         "num_train_data": 40000,
         "num_shared": 10000,
         "num_labels_ag": 2,
